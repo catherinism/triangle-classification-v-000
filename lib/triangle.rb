@@ -2,7 +2,7 @@ require 'pry'
 
 class Triangle
 
-  attr_accessor :equilateral, :isosceles, :scalene
+  attr_accessor :side_1, :side_2, :side_3
 
   def initialize(side_1, side_2, side_3)
     @side_1 = side_1
@@ -13,6 +13,7 @@ class Triangle
 
   def kind
     #binding.pry
+
   end
 
 
