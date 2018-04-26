@@ -25,5 +25,5 @@ end
       def message
         "triangle error"
     end
-
+  end
 end
