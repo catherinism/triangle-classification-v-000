@@ -25,9 +25,9 @@ class Triangle
 
     else
       self.kind = :isosceles
-
-end
+    end
   end
+end
 
   class TriangleError < StandardError
       def message
